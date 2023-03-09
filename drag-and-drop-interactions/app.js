@@ -38,11 +38,11 @@ function dragLeave(e){
 
 function dragDrop(e){
     e.target.append(elementDragged);
+    e.target.classList.remove('highlight');
 }
 function dragEnd(e){
     e.target.parentElement.classList.add('target');
     setTimeout(()=>{
         e.target.parentElement.classList.remove('target');
-        e.target.parentElement.classList.remove('highlight');
     },1000)
 }
