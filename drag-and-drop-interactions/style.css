@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: gray;
+    flex-direction: column;
+}
+
+#gameboard {
+    display: flex;
+    justify-content: space-between
+
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+}
+
+.square img {
+    max-width: 20%;
+    max-height: 20%;
+}
+
+#id{
+    height: 30px;
+}
+
+.beige {
+    background-color: rgb(227, 227, 199);
+}
+
+.brown {
+    background-color: rgb(117, 107, 107);
+}
+
+.highlight{
+    background-color: rgb(233,102,102);
+}
+
+.target{
+    border: solid 10px rgb(169, 78, 74);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
